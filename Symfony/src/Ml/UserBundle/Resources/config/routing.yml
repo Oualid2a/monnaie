@@ -1,0 +1,23 @@
+ml_user_connexion:
+    pattern: /connexion
+    defaults: { _controller: MlUserBundle:User:connexion }
+
+ml_user_deconnexion:
+    pattern: /deconnexion
+    defaults: { _controller: MlUserBundle:User:deconnexion }
+
+ml_user_homepage:
+    pattern: /user
+    defaults: { _controller: MlUserBundle:User:index }
+
+ml_user_see:
+    pattern: /user/see
+    defaults: { _controller: MlUserBundle:User:see }
+
+ml_user_add:
+    pattern: /user/add
+    defaults: { _controller: MlUserBundle:User:add }
+
+ml_user_delete:
+    pattern: /user/delete
+    defaults: { _controller: MlUserBundle:User:delete }

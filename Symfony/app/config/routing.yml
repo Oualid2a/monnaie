@@ -1,0 +1,16 @@
+ml_home:
+    resource: "@MlHomeBundle/Resources/config/routing.yml"
+    prefix:   /
+
+ml_transaction:
+    resource: "@MlTransactionBundle/Resources/config/routing.yml"
+    prefix:   /
+
+ml_prestation:
+    resource: "@MlServiceBundle/Resources/config/routing.yml"
+    prefix:   /
+
+ml_user:
+    resource: "@MlUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
